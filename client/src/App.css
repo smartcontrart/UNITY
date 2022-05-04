@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: black;
+  color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+}
+
+ .title{
+  font-size: 9vw;
+  font-weight: 500;
+  margin-bottom: 0vh;
+ }
+ 
+ .subtitle{
+  font-size: 1.5vw;
+  font-weight: 500;
+ }
+
+#App_row{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vh;
+}
+
+#button_row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh 0vh 5vh 0vh;
+}
+
+#mint_button{
+  width: 12em;
+  border-radius: 0 !important;
+}
+
+#connect_button{
+  background-color: black !important;
+  width: 12em;
+  border: 2px solid #FFFFFF !important;
+  /* border-color: white !important; */
+  border-radius: 0 !important;
+}
+
+#wl_badge{
+  width: 16em !important;
+  border-radius: 0 !important;
+  font-weight: 400 !important;
+}
+
+#claim_badge{
+  width: 16em !important;
+  border-radius: 0 !important;
+  font-weight: 400 !important
+}
+
+#connexion_status{
+  margin-top: 5vh;
+  border-radius: 0 !important;
+}
+
+#web3_alert{
+  border-radius: 0 !important;
+  width: 12em;
+  color: white;
+  background-color: black !important;
+  border: 2px solid #FFFFFF !important;
+}
+
+.etherscan_link{
+  color: rgb(119, 119, 119);
+  /* text-decoration: none; */
+}
+
+#connexion_info{
+  color: rgb(119, 119, 119);
+  font-size: 0.7em;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 650px) {
+  #mint_button{
+    /* width: 8em; */
+  }
+
+} 
